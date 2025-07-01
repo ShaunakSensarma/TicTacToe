@@ -1,8 +1,8 @@
 package TicTacToe.Model;
 
 public class Player {
-    String name;
-    PlayingPiece playingPiece;
+    public String name;
+    public PlayingPiece playingPiece;
 
     public Player(String name, PlayingPiece playingPiece) {
         this.name = name;
